@@ -39,7 +39,7 @@ tar = "0.4"
 
 [features]
 proc-macro = []
-default = ["proc-macro"]
+default = []
 
 # Expose methods Span::start and Span::end which give the line/column location
 # of a token.
